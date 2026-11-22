@@ -1,7 +1,7 @@
 // economy.js
 
 import { getColor, getEconomyKey as getEconomyStorageKey } from './database.js';
-import { BotConfig } from '../config/bot.js';
+import { botConfig as BotConfig } from '../config/bot.js';
 import { normalizeEconomyData } from './schemas.js';
 import { logger } from './logger.js';
 import { validateDiscordId, validateNumber } from './validation.js';
