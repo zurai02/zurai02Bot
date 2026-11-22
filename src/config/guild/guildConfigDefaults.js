@@ -1,4 +1,4 @@
-import { BotConfig, getCommandPrefix, getBotMessage } from '../bot.js';
+import { botConfig as BotConfig, getCommandPrefix, getBotMessage } from '../bot.js';
 import { DEFAULT_GUILD_CONFIG } from '../../utils/constants.js';
 
 // ─── Validation ───────────────────────────────────────────────────────────────
