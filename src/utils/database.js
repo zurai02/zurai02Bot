@@ -2,7 +2,9 @@
 
 import { pgDb } from './postgresDatabase.js';
 import { logger } from './logger.js';
-import { BotConfig, getDefaultApplicationQuestions } from '../config/bot.js';
+import botConfig from '../config/bot.js';
+import { getDefaultApplicationQuestions } from '../config/bot.js';
+const BotConfig = botConfig;
 
 export {
     db,
