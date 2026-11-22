@@ -3,7 +3,7 @@ import { successEmbed, warningEmbed, buildUserErrorEmbed } from '../../utils/emb
 import { getEconomyData, setEconomyData } from '../../utils/economy.js';
 import { withErrorHandling, createError, ErrorTypes } from '../../utils/errorHandler.js';
 import { InteractionHelper } from '../../utils/interactionHelper.js';
-import { BotConfig } from '../../config/bot.js';
+import { botConfig as BotConfig } from '../../config/bot.js';
 
 const ROB_COOLDOWN = BotConfig.economy?.cooldowns?.rob ?? 4 * 60 * 60 * 1000;
 const BASE_ROB_SUCCESS_CHANCE = BotConfig.economy?.robSuccessRate ?? 0.4;
