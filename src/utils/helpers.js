@@ -1,6 +1,6 @@
 // helpers.js
 
-import { BotConfig } from "../config/bot.js";
+import { botConfig as BotConfig } from "../config/bot.js";
 
 export function getPriorityMap() {
     const priorities = BotConfig.tickets?.priorities || {};
