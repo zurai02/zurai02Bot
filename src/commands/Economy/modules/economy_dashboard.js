@@ -13,7 +13,7 @@ import {
     ComponentType,
     EmbedBuilder,
 } from 'discord.js';
-import { getColor, BotConfig } from '../../../config/bot.js';
+import { getColor, botConfig as BotConfig } from '../../../config/bot.js';
 import { InteractionHelper } from '../../../utils/interactionHelper.js';
 import { successEmbed } from '../../../utils/embeds.js';
 import { logger } from '../../../utils/logger.js';
